@@ -1,12 +1,10 @@
 const str = "roxo amarelo laranja verde violeta azul indigo";
 
-
 function inicioVogal(string) {
   const palavras = string.split(" ");
   const vogais = "aeiou";
   let palavrasInicioVogal = [];
   let palavrasQuantidade = 0;
-
 
   for (let vogal of vogais) {
     for (let palavra of palavras) {
@@ -17,12 +15,10 @@ function inicioVogal(string) {
     }
   }
 
-
   console.log(
     "Palavras que iniciam com uma vogal: " + palavrasInicioVogal.join(", ")
   );
   console.log("Total: " + palavrasQuantidade);
 }
-
 
 inicioVogal(str);
