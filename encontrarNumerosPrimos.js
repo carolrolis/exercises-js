@@ -1,9 +1,7 @@
 const arr = [1, 2, 3, 4, 5, 6, 7];
 
-
 function retornarNumerosPrimos(array) {
   const arrPrimos = [];
-
 
   for (let numero of array) {
     let divisores = 0;
@@ -14,15 +12,12 @@ function retornarNumerosPrimos(array) {
       }
     }
 
-
     if (divisores === 2) {
       arrPrimos.push(numero);
     }
   }
 
-
   console.log(arrPrimos);
 }
-
 
 retornarNumerosPrimos(arr);
