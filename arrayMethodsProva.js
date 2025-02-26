@@ -1,4 +1,3 @@
-// =============================== PRIMEIRA QUESTÃO ===============================
 const tripulacao = [
   { nome: "Carol", cargo: "Capitã" },
   { nome: "Lia", cargo: "Vice-capitã" },
